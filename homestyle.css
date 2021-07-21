@@ -1,0 +1,102 @@
+/*THIS SHEET IS LINKED TO HOME.html*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	background-image: url(bgimage.jpg);
+	background-size: cover;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+/*HOME PAGE CSS
+
+
+*/
+.container{
+	width: 500px;
+	background: #191919;
+	border-radius: 10px;
+}
+/*FEEDBACK FORM CSS
+
+
+
+
+
+*/
+.id input[type = "text"], .id input[type = "email"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.id input[type = "text"]:focus, .id input[type = "email"]:focus{
+	width: 320px;
+	border-color: crimson;
+}
+/*FEEBACK BOX CSS
+
+
+
+
+*/
+.form textarea{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.form textarea:focus{
+	width: 320px;
+	border-color: crimson;
+}
+.form button{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid crimson;
+	padding: 14px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+.form button:hover , .form button:hover{
+	background: crimson;
+}
+.form button a{
+	text-decoration: none;
+	color: white;
+}
+.form h1{
+	margin: 20px;
+	text-align: center;
+	color: #fd9644;
+	font-weight: 500;
+}

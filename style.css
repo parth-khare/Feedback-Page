@@ -1,0 +1,335 @@
+
+/*THIS SHEET IS LINKED TO (REGISTER.html, LOGIN.html, ForgotPassword.html AND NewPassword.html)*/
+
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-image: url(bgimage.jpg);
+background-size: cover;
+font-family: sans-serif;
+}
+/*REGISTRATION PAGE CSS
+
+*/
+.register-page{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+/*LOGIN PAGE CSS
+
+
+*/
+.login-page{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+/*FORGOT PASSWORD PAGE CSS
+
+
+*/
+.ForgotPassword-page{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+/*NEW PASSWORD PAGE CSS
+
+
+*/
+.NewPassword-page{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+/*REGISTRATION FORM CSS
+
+
+
+
+
+
+
+*/
+.register-form h1{
+	color: #fd9644;
+	font-weight: 500;
+}
+.register-form input[type = "text"], .register-form input[type = "password"], .register-form input[type = "email"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.register-form input[type = "text"]:focus, .register-form input[type = "password"]:focus, .register-form input[type = "email"]:focus{
+	width: 225px;
+	border-color: crimson;
+}
+.register-form button[type = "button"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid crimson;
+	padding: 14px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.register-form button[type = "button"]:hover, .register-form button[type = "button"]:active{
+	background: crimson;
+}
+.register-form button[type = "button"] a{
+	color: white;
+	text-decoration: none;
+}
+/*LOGIN FORM CSS
+
+
+
+
+
+
+
+*/
+.login-form h1{
+	color: #fd9644;
+	font-weight: 500;
+}
+.login-form input[type = "text"], .login-form input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.login-form input[type = "text"]:focus, .login-form input[type = "password"]:focus{
+	width: 225px;
+	border-color: crimson;
+}
+.login-form button[type = "button"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid crimson;
+	padding: 14px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.login-form button[type = "button"]:hover, .login-form button[type = "button"]:active{
+	background: crimson;
+}
+.login-form button[type = "button"] a{
+	color: white;
+	text-decoration: none;
+}
+/*FORGOT PASSWORD FORM CSS
+
+
+
+
+
+
+
+*/
+.ForgotPassword-form h1{
+	color: #fd9644;
+	font-weight: 500;
+}
+.ForgotPassword-form input[type = "email"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.ForgotPassword-form input[type = "email"]:focus{
+	width: 225px;
+	border-color: crimson;
+}
+.ForgotPassword-form button[type = "button"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid crimson;
+	padding: 14px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.ForgotPassword-form button[type = "button"]:hover, .ForgotPassword-form button[type = "button"]:active{
+	background: crimson;
+}
+.ForgotPassword-form button[type = "button"] a{
+	color: white;
+	text-decoration: none;
+}
+/*NEW PASSWORD FORM CSS
+
+
+
+
+
+
+
+*/
+.NewPassword-form h1{
+	color: #fd9644;
+	font-weight: 500;
+}
+.NewPassword-form input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.NewPassword-form input[type = "password"]:focus{
+	width: 225px;
+	border-color: crimson;
+}
+.NewPassword-form button[type = "button"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid crimson;
+	padding: 14px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.NewPassword-form button[type = "button"]:hover, .NewPassword-form button[type = "button"]:active{
+	background: crimson;
+}
+.NewPassword-form button[type = "button"] a{
+	color: white;
+	text-decoration: none;
+}
+/*RESGISTRATION FORM HYPERLINK CSS
+
+
+
+
+
+*/
+.form .message{
+	margin: 15px 0 0;
+	color: #fff;
+	font-size: 15px;
+}
+.form .message a{
+	color: #fd9644;
+	text-decoration: none;
+}
+.form .message a:hover{
+	color: aqua;
+	transition: 0.5s ease;
+}
+/*LOGIN FORM HYPERLINK CSS
+
+
+
+
+
+*/
+.form .msg a{
+	color: #fd9644;
+	text-decoration: none;
+}
+.form .msg a:hover{
+	color: aqua;
+	transition: 0.5s ease;
+}
+/*body{
+	background: #ee0979; 
+	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  
+	background: linear-gradient(125deg, #ff6a00, #ee0979,#ff6a00); 
+	background-size: 300%;
+	animation: bg 15s infinite;
+	font-size: 14px;
+}
+@keyframes bg{
+	0%{
+		background-position: 0% 50%
+;	}
+	50%{
+		background-position: 50% 100%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+*/

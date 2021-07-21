@@ -1,0 +1,72 @@
+/*THIS SHEET IS LINKED TO HOME.html*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	background-image: url(bgimage.jpg);
+	background-size: cover;
+}
+.head{
+	margin-top: 30px auto;
+	padding: 20px;
+	text-align: center;
+	color: #fd9644;
+}
+.head p{
+	border-radius: 10px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 30px;
+	border: 1px solid #191919;
+	background-color: #191919;
+	opacity: 0.7;  
+	display: inline-block;
+}
+.wrapper{
+	background-size: cover;
+	display: flex;
+	min-height: 85vh;
+	align-items: center;
+	justify-content: center;
+}
+/*HOME PAGE CSS
+
+
+*/
+.container{
+	width: 500px;
+	background: #191919;
+	border-radius: 10px;
+}
+/*FEEBACK BOX CSS
+
+
+
+
+*/
+.form p{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2bcbba;
+	padding: 14px 10px;
+	width: 330px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.form p:hover{
+	width: 350px;
+	border-color: crimson;
+}
+.form p::selection{
+	color: crimson;
+}
